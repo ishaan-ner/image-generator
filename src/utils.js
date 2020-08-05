@@ -43,7 +43,7 @@ export const createPixelMap = (colorsArr) => {
 //create randomized patterns of the colors array to form various images of same colors
 //set as handler to our refresh button
 export const changeImagePatterns = () => {
-  const randomPicker = Math.floor(Math.random() * 3);
+  const randomPicker = Math.floor(Math.random() * 5);
   switch (randomPicker) {
     case 0:
       return function (a, b) {
@@ -57,10 +57,14 @@ export const changeImagePatterns = () => {
       return function (a, b) {
         return b.blue - a.green;
       };
-    default:
+
+    case 3:
       return function () {
         return Math.random() - 0.5;
       };
+
+    default:
+      return;
   }
 };
 
