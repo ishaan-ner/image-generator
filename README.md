@@ -3,10 +3,8 @@
 A static image generator that creates a 256 x 128 image.
 The image contains 32,768 discreet colours, each occuring only once.
 
-<<<<<<< HEAD
 There are no external libraries used except for the React dev ecosystem setup with Create React App
 
-=======
 You can view a demo at : https://ishaan-ner.github.io/image-generator/
 
 The site has been tesed for compatibility for:<br />
