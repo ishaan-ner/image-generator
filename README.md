@@ -9,8 +9,6 @@ There are no external libraries used except for the React dev ecosystem setup wi
 =======
 You can view a demo at : https://ishaan-ner.github.io/image-generator/
 
-> > > > > > > 859d1e4d78534b41eb58b267acc236d12481520a
-
 The site has been tesed for compatibility for:<br />
 Firefox ver 79.0 <br />
 Chrome ver 84.0 <br />
